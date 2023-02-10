@@ -16,3 +16,18 @@ We need to know:
 **Call**: Customers in this group were called by a member of the sales team. On average members of the team were on the phone for around thirty minutes per customer.
 
 **Email and call**: Customers in this group were first sent the product information email, then called a week later by the sales team to talk about their needs and how this new product may support their work. The email required little work from the team, the call was around ten minutes per customer.
+
+## Data Validation
+
+The dataset contains 15000 rows and 8 columns before cleaning and validataion. I have validated all the columns against the criteria in the dataset table:
+
+1. week: There are 6 unique values, represented as integers, indicating which week since product launch. There are no missing values, so no cleaning is necessary. 
+2. sales_method: There are 5 unique values, represented as strings, indicating the sales method used to sell the car. There are no missing values, so no cleaning is necessary. Because we should expect 3 sales method, rows with two unique values had their values changed. For example, "em + call" was changed to "Email + Call." 
+3. customer_id: Each customer has their own unique ID, represented as strings. There are no missing values, so no cleaning is necessary.
+4. nb_sold: There are 10 unique values, represented as integers, indicating the number of new products sold. Values range as low as 7 to as high as 16. There are no missing values, so no cleaning is necessary. 
+5. revenue: This column reflects revenue from sales garnered by each customer, represented as a float. There were 1074 missing values. We cannot assume missing values are zeroes. (Perhaps a sales rep accidentally input the data incorrectly or there was an issue with the server.) Therefore, these rows were removed.
+6. years_as_customer: There are 42 unique values, represented as integers, indicating the number of years a customer has been with Pens and Printers. Values ranged as low as 0 (i.e. new customer) to as high as 63. There are no missing values, so no cleaning is necessary.
+7. nb_site_visits: There are 27 unique values, represented as integers, indicating the number of years a customer has visited Pens and Printers website in the past year. Values ranged as low as 12 to as high as 41. There are no missing values, so no cleaning is necessary. 
+8. state: There are 50 unique values, represented as strings, indicating the states where a customer has their order shipped to. In other words, customers represent all of the contiguous USA. DC and Puerto Rico are not included. There are no missing values, so no cleaning is necessary.
+
+Now that data validation is complete, the dataset has 13926 rows and 8 columns.
