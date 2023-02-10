@@ -12,8 +12,8 @@ def get_basic_info(df):
 def rename(df, column, *args):
 
     """
-    args[0]
-    args[1]
+    args[0] = 'email' or 'em + call'
+    args[1] = 'Email' or 'Email + Call'
     """
 
     df[column] = df[column].replace(args[0], args[1])
@@ -39,8 +39,8 @@ def my_fmt(x, total):
 def show_pie_chart(df, my_fmt, *args):
     
     """
-    args[0]
-    args[1]
+    args[0] = 'sales_method'
+    args[1] = 'customer_id'
     """
 
     fig = plt.gcf()
@@ -161,7 +161,7 @@ def bar_chart_comparison(df, *args):
 
     """
     args[0] = 'sales_method'
-    args[1] 'week'
+    args[1] = 'week'
     args[2] = 'customer_id'
     """
 
@@ -187,7 +187,7 @@ def sales_summary(df, *args):
 
     """
     args[0] = 'sales_method'
-    args[1] 'week'
+    args[1] = 'week'
     args[2] = 'customer_id'
     args[3] = 'revenue'
     """
