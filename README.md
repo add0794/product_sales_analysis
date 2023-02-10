@@ -84,6 +84,11 @@ But that isn't really what Pens and Partners need to know. Instead, it is that t
 
 ![Count of Sales by Approach](https://github.com/add0794/product_sales_analysis/blob/main/images/output_5.png)
 
+Data on revenue and sales by sales method can be accessed as follows:
+
+- [Revenue by Week](https://github.com/add0794/product_sales_analysis/blob/c3cb4f2cf712896b2dbf527257fb8006398b634a/Excel/Excel_3.xlsx)
+- [Sales by Week](https://github.com/add0794/product_sales_analysis/blob/c3cb4f2cf712896b2dbf527257fb8006398b634a/Excel/Excel_4.xlsx)
+
 ## Recommendations
 
 Since our goal is to increase sales as efficiently as possible, I recommend that we measure (1) revenue changes over time as (2) each sales method's use changes while (3) accounting for changes in sales. It's critical, however, that we invest in **how we do email and call** because, although email and call's revenue has increased over time, sales have decreased: from $272810.06 in week 1 to $163111.74 in week 6. That's a 40% decrease in revenue, and sales have seen a similar decrease: 69%.
