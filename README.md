@@ -6,10 +6,10 @@ We have built long lasting relationships with our customers and they trust us to
 
 We need to know:
 
-- How many customers were there for each approach?
-- What does the spread of the revenue look like overall? And for each method?
-- Was there any difference in revenue over time for each of the methods?
-- Based on the data, which method would you recommend we continue to use? Some of these methods take more time from the team so they may not be the best for us to use if the results are similar.
+- *How many customers were there for each approach?*
+- *What does the spread of the revenue look like overall? And for each method?*
+- *Was there any difference in revenue over time for each of the methods?*
+- *Based on the data, which method would you recommend we continue to use? Some of these methods take more time from the team so they may not be the best for us to use if the results are similar.*
 
 **Email**: Customers in this group received an email when the product line was launched, and a further email three weeks later. This required very little work for the team.
 
