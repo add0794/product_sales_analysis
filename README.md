@@ -53,8 +53,10 @@ Email is preferred: ~50% of customers use email exclusively, though it should be
 
 Regardless of sales method, customers for each group of sales method have used the company's services for a relatively short period of time or have come from a relatively select number of states. Each group has used the services for 1 year, and, thereafter, the proportion of customers having used the services for more than 1 years decreases in a linear fashion. Notable states are California, Illinois, Pennsylvania, and New York, where each group's customers made up a proportion of greater than 4% of the total group's customers. 
 
-![Sales Method Proportions by Years as Customer]
-![Sales Method Proportions by State]
+The datasets for sales method grouped by years as customer and state can be accessed as follows:
+
+- [Sales Method Proportions by Years as Customer](https://github.com/add0794/product_sales_analysis/blob/6fb88e7c5e094becfad363b081a9750f076f592d/Excel/Excel_2.xlsx)
+- [Sales Method Proportions by State](https://github.com/add0794/product_sales_analysis/blob/6fb88e7c5e094becfad363b081a9750f076f592d/Excel/Excel_1.xlsx)
 
 Otherwise, knowing how sales method is influenced by "state" or "years as customer" does not say much else. **There was no specific value for both "years as customer" or "state" that indicated one sales method is preferred over another.**
 
