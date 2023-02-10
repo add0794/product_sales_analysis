@@ -49,9 +49,12 @@ Based on this analysis, I recommended how Pens and Partners should measure succe
 
 Email is preferred: ~50% of customers use email exclusively, though it should be mentioned that ~34% prefer to get phone calls exclusively, too. A considerable percentage prefer email and phone calls: ~16%. **This gives insight that, perhaps, email is the preferred method of communication.**
 
-[INSERT PIE CHART]
+![Customers for Each Approach](https://github.com/add0794/product_sales_analysis/blob/144a262d0a33133b0d0829a06fa328db964f4d4a/images/output_1.png)
 
 Regardless of sales method, customers for each group of sales method have used the company's services for a relatively short period of time or have come from a relatively select number of states. Each group has used the services for 1 year, and, thereafter, the proportion of customers having used the services for more than 1 years decreases in a linear fashion. Notable states are California, Illinois, Pennsylvania, and New York, where each group's customers made up a proportion of greater than 4% of the total group's customers. 
+
+![Sales Method Proportions by Years as Customer]
+![Sales Method Proportions by State]
 
 Otherwise, knowing how sales method is influenced by "state" or "years as customer" does not say much else. **There was no specific value for both "years as customer" or "state" that indicated one sales method is preferred over another.**
 
@@ -59,17 +62,17 @@ Otherwise, knowing how sales method is influenced by "state" or "years as custom
 
 Revenue was right-skewed. Most customers spent between $32 and $53, which likely corresponds to 1-2 purchases. However, there's a considerable count of customers paying between $73 and $115.
 
-[INSERT HISTOGRAM]
+![Spread of Revenue by Count of Approximate Sales](https://github.com/add0794/product_sales_analysis/blob/144a262d0a33133b0d0829a06fa328db964f4d4a/images/output_2.png)
 
 Overall, email has the highest revenue, with almost twice the revenue of email and calls. WIthin each method, most of the revenue came from customers who had been with the company between 0 and 8 years (highlighted by blue): $524988.89 (78.1%), $175138.14 (77.0%), and $330944.03 (81.1%) for email, call, and email and call, respectively. A considerable percentage came from customers between 8 and 16 years, too, with each showing percentages between 15% and 18% (highlighted by orange). The rest is from customers beyond 16 years.
 
 **Email already is used the most; now, it has the highest revenue. This may lead us to believe that email is the preferred sales method.** 
 
-[INSERT BAR CHART]
+![Revenue by Sales Method](https://github.com/add0794/product_sales_analysis/blob/144a262d0a33133b0d0829a06fa328db964f4d4a/images/output_3.png)
 
 Ironically, weekly revenue for sales showed an inverse relationship. As the weeks went on, revenue decreased. For call, weekly revenue was usually below $50000, though for week 5, it hit $53518.11. Revenue by email and call increased over this time period.
 
-[INSERT LINE CHART]
+![Weekly Revenue by Sales Method](https://github.com/add0794/product_sales_analysis/blob/144a262d0a33133b0d0829a06fa328db964f4d4a/images/output_4.png)
 
 This begs the question: Is email the realized sales method?
 
@@ -77,8 +80,7 @@ I returned to review how much email was used by customers and came across a crit
 
 But that isn't really what Pens and Partners need to know. Instead, it is that the number of sales decreased since week 1, from 3497 in week 1 to 1096 in week 6, regardless of which sales method is being monitored. Revenue decreased, too, from $272810.06 in week 1 to $163111.74 in week 6.
 
-[INSERT BAR CHART]
-[INSERT TABLE]
+![Count of Sales by Approach](https://github.com/add0794/product_sales_analysis/blob/main/images/output_5.png)
 
 ## Recommendations
 
