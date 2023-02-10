@@ -192,6 +192,5 @@ def sales_summary(df, *args):
     args[3] = 'revenue'
     """
 
-    v_counts_1 = df.groupby([args[0], args[1]])[args[2]].count().unstack()
-    v_counts_2 = df.groupby(args[1])[args[3]].sum().reset_index()
-    print(f'Sales by {args[0]} \n {v_counts_1}\n Revenue by week\n {v_counts_2}')
+    df.groupby([args[0], args[1]])[args[2]].count().unstack().to_excel('Sales by Week.xlsx')
+    df.groupby(args[1])[args[3]].sum().reset_index().to_excel('Revenue by Week.xlsx')
