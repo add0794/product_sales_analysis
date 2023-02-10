@@ -19,7 +19,7 @@ We need to know:
 
 ## Data Validation
 
-The dataset can be accessed [here[(https://github.com/add0794/product_sales_analysis/blob/52e78cb4f23ac4a51a173a8fa85670c96ace2382/product_sales.csv) 
+The dataset can be accessed [here](https://github.com/add0794/product_sales_analysis/blob/52e78cb4f23ac4a51a173a8fa85670c96ace2382/product_sales.csv) 
 
 The dataset contains 15000 rows and 8 columns before cleaning and validataion. I have validated all the columns against the criteria in the dataset table:
 
